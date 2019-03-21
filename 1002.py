@@ -1,6 +1,6 @@
 pi = 3.14159
 
-R = float(input())                  #if you used int(), python wouldn't support a float as input
+R = float(input())                  #if int() was used instead of float(), python wouldn't support a float as input
 
 def area(r):
   A = pi * (r**2)
