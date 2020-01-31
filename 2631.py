@@ -41,7 +41,7 @@ def sao_amigos_indiretos(amigos, checados, lista_de_amizades, pessoa2):
         amigos.remove(a)
         for amizade in lista_de_amizades:
             if a in amizade:
-                outro = amizade[amizade.index(amigo)-1]
+                outro = amizade[amizade.index(a)-1]
                 if outro == pessoa2:
                     return print('S')
                 elif outro in checados:
