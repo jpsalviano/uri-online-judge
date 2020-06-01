@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def main():
     #num of translations in dict, num of word pairs to check
     m, n = [int(x) for x in input().split()]
