@@ -16,4 +16,4 @@ while i >= 0 and i < n:
         i -= 1
 
 atacadas = atacadas.count(1)
-print(1, atacadas, total, 1)
+print(atacadas, total, 1)
